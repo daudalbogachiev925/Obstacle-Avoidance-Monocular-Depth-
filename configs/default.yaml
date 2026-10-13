@@ -1,0 +1,9 @@
+depth:
+  model: MiDaS_small
+  device: cuda
+obstacle:
+  threshold: 0.7
+  grid_w: 20
+  grid_h: 10
+safety:
+  max_obstacle_ratio: 0.5
